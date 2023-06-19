@@ -12,4 +12,6 @@ int main() {
 
 	//membuka file dalam mode menulis.
 	ofstream outfile;
+	// menunjuk  ke sebuah nama fiile
+	outfile.open(NamaFile, ios::out)
 }
